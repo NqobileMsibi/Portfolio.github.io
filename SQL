@@ -55,6 +55,8 @@ Question:
   JOIN Orders AS O ON OD.OrderID = O.OrderID
   GROUP BY MONTH(O.OrderDate)
 
+Notes: I looked up how to change the month numbers to month names to make it more readable
+
 Inventory Management: 
   Keeping track of inventory levels to prevent stockouts or overstocking.
 Question:
