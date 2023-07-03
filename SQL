@@ -36,6 +36,7 @@ Question:
   FROM Customers AS C
   JOIN Orders AS O  ON O.CustomerID = C.CustomerID
   WHERE YEAR(O.OrderDate) != 1998
+
 Question:
   Which regions generate the most sales?
 
