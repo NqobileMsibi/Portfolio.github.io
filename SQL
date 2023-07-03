@@ -1,5 +1,4 @@
-Sales Performance Analysis: 
-  Understanding which products are performing well and which are not. This could help in making decisions about product development, marketing, and inventory management.
+Sales Performance Analysis:
 Question:
   What are the top-selling products?
 
@@ -10,7 +9,6 @@ Question:
   ORDER BY Top_Sales DESC
 
 Supplier Evaluation: 
-  Assessing the performance of suppliers in terms of delivery time, product quality, and cost. This could help in negotiating better terms with suppliers or deciding to switch to different ones.
 Question:
   Which suppliers consistently meet their delivery times and which ones do not?
 
@@ -23,7 +21,6 @@ Question:
 Notes: I struggled to get the answer so I used the intetnet. My thought process before was to use the WHERE clause but the problem was going to be how to calculate the amount on the orders on time
 
 Customer Behavior Analysis: 
-  Understanding the purchasing behavior of customers. This could help in improving customer service and personalizing marketing efforts.
 Question:
   What is the average order value and how does it vary across different customer segments or regions?
 
@@ -57,8 +54,7 @@ Question:
 
 Notes: I looked up how to change the month numbers to month names to make it more readable
 
-Inventory Management: 
-  Keeping track of inventory levels to prevent stockouts or overstocking.
+Inventory Management:
 Question:
   Which products are frequently out of stock?
 
