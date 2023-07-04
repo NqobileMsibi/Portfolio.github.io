@@ -40,7 +40,7 @@ Question:
 Question:
   Which regions generate the most sales?
 
-  SELECT O.ShipCountry, SUM(OD.UnitPrice * OD.Quantity) AS AVG_Orders
+  SELECT O.ShipCountry, SUM(OD.UnitPrice * OD.Quantity) AS SUM_Orders
   FROM [Order Details] AS OD
   JOIN Orders AS O ON OD.OrderID = O.OrderID
   GROUP BY O.ShipCountry
